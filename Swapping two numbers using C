@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main() 
+{
+    int first,second,third;
+    printf("Enter first number: ");
+    scanf("%d",&first);
+    printf("Enter second number: ");
+    scanf("%d","&second);
+    
+    // Before Swapping
+    printf("Before Swapping:\nfirst number = %d, second number = %d.\n",first,second);
+    
+    //LOGIC
+    third = first;
+    first = second;
+    second = third;
+    
+    //After Swapping
+    printf("After Swapping:\nfirst number = %d, second number = %d.\n",first,second);
+    return 0;
+}
